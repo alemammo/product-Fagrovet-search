@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the product data
-file_path = '/Users/alessandromammoli/Desktop/Product app/Data Base of product .xlsx'
+file_path = 'Data Base of product .xlsx'
 data_df = pd.read_excel(file_path, sheet_name='Sheet1')
 
 # Strip spaces from column names to avoid errors
